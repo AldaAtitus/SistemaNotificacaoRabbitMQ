@@ -2,7 +2,7 @@ import pika
 import json
 from datetime import datetime
 
-# Substitua pela sua URL CloudAMQP
+
 url = "amqps://wezzidbt:pEABp7TrvywHGow8T0u6iQiF1BikJpsB@jackal.rmq.cloudamqp.com/wezzidbt"
 params = pika.URLParameters(url)
 
